@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Branches</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>423 Anton Lembede St, Durban, 4001</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@natesa.org</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-white-50 ms-3"
+                    href="https://www.facebook.com/profile.php?id=61553667069962&amp;mibextid=ZbWKwL%20"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="text-white-50 ms-3" href="https://www.tiktok.com/@natesa_national?_t=8iMbawlSAR4&amp;_r=1"><i
+                        class="fab fa-tiktok"></i></a>
+                <a class="text-white-50 ms-3" href="https://www.youtube.com/channel/UCPj11VvnKAvMv68XNEASrYA"><i
+                        class="fab fa-youtube"></i></a>
+                <a class="text-white-50 ms-3" href="https://www.instagram.com/natesa_national?igsh=YzVkODRmOTdmMw=="><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <img src="img/Logo.jpg" alt="NaTeSA Logo">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+
+                    <!-- About dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="about.html" class="dropdown-item">About NaTeSA</a>
+                            <a href="branches.html" class="dropdown-item">Branches</a>
+                            <a href="nec.html" class="dropdown-item">Our NEC</a>
+                        </div>
+                    </div>
+
+                    <!-- Our Work dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Work</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="education.html" class="dropdown-item">Education</a>
+                            <a href="healthcare.html" class="dropdown-item">Health</a>
+                            <a href="livelihoods.html" class="dropdown-item">Livelihoods</a>
+                        </div>
+                    </div>
+
+                    <!-- Resources dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="careers.html" class="dropdown-item">Careers</a>
+                            <a href="bursaries.html" class="dropdown-item">Bursaries</a>
+                            <a href="blog.html" class="dropdown-item">Blog</a>
+                            <a href="shop.html" class="dropdown-item">SHOP</a>
+                        </div>
+                    </div>
+
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                    <!-- Donate button -->
+                    <div class="d-none d-lg-flex ms-2">
+                        <a class="btn btn-outline-primary py-2 px-3" href="">
+                            Donate Now
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Who We Are</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">About</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="nec.html">Ou NEC</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- NEC Section -->
+    <section class="nec-section">
+        <h1>National Executive Committee</h1>
+        <div class="nec-grid">
+            <!-- Chairperson -->
+            <div class="nec-member">
+                <img src="img/team-1.jpg" alt="Thulebona Cele">
+                <h2>Chairperson:<br> Thulebona Cele</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> Thulebona Cele has a long history of leadership and service
+                        within NaTeSA. He began his journey in 2017 as the Deputy Secretary of the UKZN Westville
+                        branch. In 2022, he was co-opted as a member of the National Executive Committee (NEC), serving
+                        from May to October of that year. Thulebona was later elected as the NEC Secretary General, a
+                        role he held from October 2022 to August 2024. His leadership and dedication to NaTeSA were
+                        further recognized when he was elected as the National Chairperson in August 2024, a position he
+                        currently holds.</p>
+                    <p><strong>Qualifications:</strong> Bachelor's Degree in Optometry (UKZN)</p>
+                    <p><strong>Personal Achievements:</strong>
+                    <ul>
+                        <li>Opened <strong>Amaqaphelo Eye Care practice</strong> in Mnambithi.</li>
+                        <li>Opened <strong>Amaqaphelo Eye Care practice</strong> in Durban.</li>
+                        <li><strong>Created 5 job opportunities</strong> through these practices.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- Deputy Chairperson -->
+            <div class="nec-member">
+                <img src="" alt="Sabelo Mncube">
+                <h2>Deputy Chairperson: Sabelo Mncube</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> [Add brief history here]</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong>Personal Achievements:</strong> [Add achievements here]</p>
+                </div>
+            </div>
+            <!-- Secretary -->
+            <div class="nec-member">
+                <img src="" alt="Halalisani Zulu">
+                <h2>Secretary General: Halalisani Zulu</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> [Add brief history here]</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong>Personal Achievements:</strong> [Add achievements here]</p>
+                </div>
+            </div>
+
+            <!-- Deputy Secretary -->
+            <div class="nec-member">
+                <img src="img/team- 4.jpg" alt="NomaSabatha Mkhize">
+                <h2>Deputy SG: NomaSabatha Mkhize</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> Nomasabatha Mkhize is the newly elected Deputy Secretary General
+                        of the NaTeSA Association. She recently graduated with a Bachelor of Laws (LLB) from the
+                        University of KwaZulu-Natal, Pietermaritzburg Campus. Nomasabatha has been actively involved in
+                        NaTeSA, having served as an Additional Member at UKZN PMB during the 2020/2021 term. She was
+                        elected to her current role in August 2024, continuing her dedication to the association.</p>
+                    <p><strong>Qualifications:</strong> Bachelor of Laws (LLB) - UKZN</p>
+                    <p><strong></strong></p>
+                </div>
+            </div>
+            <!-- Treasurer -->
+            <div class="nec-member">
+                <img src="img/team-5.jpg" alt="Nokubonga Hadebe">
+                <h2>Treasurer:<br> Nokubonga Hadebe</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> Born in Estcourt and raised in Marianhill, she completed her high
+                        school education at St Francis College. Demonstrating a natural aptitude for leadership, she is
+                        motivated by a deep commitment to personal development, uplifting others, and fostering positive
+                        change in every space she inhabits. She has held various leadership positions within the NaTeSa
+                        Wits Branch Executive Committee and currently serves as the Treasurer General of the NaTeSa
+                        National Executive Committee.</p>
+                    <p><strong>Qualifications:</strong>
+                    <ul>
+                        <li>Bachelor of Accounting Science - Wits</li>
+                        <li>Postgraduate Diploma in Accountancy (CTA) - Wits</li>
+                    </ul>
+                    </p>
+                    <p><strong>Personal Achievements:</strong>
+                    <ul>
+                        <li>Consistently top student, tutor, and prefect</li>
+                        <li>Awarded scholarships for boarding school and tertiary education</li>
+                        <li>High school Dux</li>
+                        <li>Member of the Golden Key International Honour Society</li>
+                        <li>Chair of African Woman Chartered Accountant during CTA studies</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- Public Relations Officer -->
+            <div class="nec-member">
+                <img src="img/team-6.jpg" alt="Nkosingiphile Khoza">
+                <h2>PRO:<br> Nkosingiphile Khoza</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> Nkosingiphile Khoza has demonstrated strong leadership and
+                        dedication to NaTeSA. He served as the Chairperson of the University of the Free State (UFS)
+                        Branch Executive Committee (BEC) during the 2021/2022 term and was re-elected for the 2022/2023
+                        term due to his exemplary leadership. Currently, Nkosingiphile is serving as the Public
+                        Relations Officer in the National Executive Committee (NEC), continuing his commitment to
+                        advancing the organization's objectives on a national level.</p>
+                    <p><strong>Qualifications:</strong> Bachelor of Education (UFS)</p>
+                    <p><strong></strong></p>
+                </div>
+            </div>
+            <!-- Projects Officer -->
+            <div class="nec-member">
+                <img src="img/team- 7.jpg" alt="Sinethemba Skhakhane">
+                <h2>Projects Officer: Sinethemba Skhakhane</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> Sinethemba Skhakhane has a rich history of leadership within the
+                        NaTeSA and UKZN community. She began her journey as an Additional Member of the NaTeSA Branch
+                        Executive Committee (BEC) at UKZN PMB during the 2016/2017 term. She later served as the
+                        Treasurer for the NaTeSA BEC at UKZN PMB in 2018/2019. Sinethemba was also involved in the UKZN
+                        PMB Athletics Club, where she served as a member in 2018/2019 and took on the role of Secretary
+                        in 2019/2020.
+
+                        In addition, she contributed to the UKZN PMB ABSA Residence House Committee as the Finance and
+                        Project Officer in 2019. She returned to NaTeSA in 2022 as an Additional Member of the National
+                        Executive Committee (NEC), where she continues to demonstrate her commitment as the current
+                        Project Officer.</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong></strong></p>
+                </div>
+            </div>
+            <!-- Organiser -->
+            <div class="nec-member">
+                <img src="images/SiyandaNtombela.jpg" alt="Siyanda Ntombela">
+                <h2>Organiser: Siyanda Ntombela</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> [Add brief history here]</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong>Personal Achievements:</strong> [Add achievements here]</p>
+                </div>
+            </div>
+            <!-- Additional Member 1 -->
+            <div class="nec-member">
+                <img src="images/LindokuhleNtshangase.jpg" alt="Lindokuhle Ntshangase">
+                <h2>Add Member:<br> Lindokuhle Ntshangase</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> [Add brief history here]</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong>Personal Achievements:</strong> [Add achievements here]</p>
+                </div>
+            </div>
+            <!-- Additional Member 2 -->
+            <div class="nec-member">
+                <img src="img/team- 10.jpg" alt="Khanyisani Makhoba">
+                <h2>Add Member:<br> Khanyisani Makhoba</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong>Khanyisani was born in Mandeni Sundumbili and grew up in Richards
+                        Bay,
+                        KwaZulu-Natal. In 2012, he began studying for a Bachelor of Science in Electrical Engineering at
+                        the
+                        University of KwaZulu-Natal (UKZN). From 2015 to 2016, he served as the branch chairperson for
+                        NaTeSA at UKZN Howard College Campus. After completing his studies, Khanyisani gained valuable
+                        experience working for various companies, including Richards Bay Minerals, starting in 2017. He
+                        is
+                        currently working towards obtaining professional registration with the Engineering Council of
+                        South
+                        Africa (ECSA) as an Electrical Engineer.</p>
+                    <p><strong>Qualifications:</strong> PhD Electrical Engineering</p>
+                    <p><strong>Personal Achievements:</strong>
+                    <ul>
+                        <li>Awarded as one of the <strong>Top 5 Matric Achievers</strong> by uThungulu District
+                            Municipality
+                            (2011).</li>
+                        <li>Received two awards for <strong>Mathematics and Science</strong> from the Mining
+                            Qualifications
+                            Authority (2011).</li>
+                        <li><strong>Obtained a Master of Science degree in Electrical Engineering</strong> in record
+                            time.
+                        </li>
+                        <li>Recognized by The Golden Key International Society as one of the <strong>top 15% performing
+                                postgraduate students</strong> at the University of KwaZulu-Natal (2020).</li>
+                        <li>Appointed as an <strong>ad-hoc lecturer</strong> in the Electrical, Electronic, and Computer
+                            Engineering Department at the University of KwaZulu-Natal (July 2023).</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="nec-member">
+                <img src="" alt="Simangaliso Hadebe">
+                <h2>Facilitator:<br> Simangaliso Hadebe</h2>
+                <div class="nec-details">
+                    <p><strong>Brief History:</strong> [Add brief history here]</p>
+                    <p><strong>Qualifications:</strong> [Add qualifications here]</p>
+                    <p><strong>Personal Achievements:</strong> [Add achievements here]</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Advisory Board Section -->
+    <section class="advisory-board-section">
+        <h1>Advisory Board</h1>
+        <div class="advisory-board-grid">
+            <div class="advisory-board-member">
+                <img src="" alt="Sinenhlanhla Nduli">
+                <h2>Sinenhlanhla Nduli</h2>
+            </div>
+            <div class="advisory-board-member">
+                <img src="" alt="Lindokuhle Msweli">
+                <h2>Lindokuhle Msweli</h2>
+            </div>
+            <div class="advisory-board-member">
+                <img src="" alt="Sifiso Ndlazi">
+                <h2>Sifiso Ndlazi</h2>
+            </div>
+            <div class="advisory-board-member">
+                <img src="" alt="Ntokozo Ngcobo">
+                <h2>Ntokozo Ngcobo</h2>
+            </div>
+            <div class="advisory-board-member">
+                <img src="" alt="Mntomuhle Zuma">
+                <h2>Mntomuhle Zuma</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Co-Opted Members Section -->
+    <section class="co-opted-members-section">
+        <h1>Co-Opted Members</h1>
+        <div class="co-opted-grid">
+            <div class="co-opted-member">
+                <img src="img/team- 11.jpg" alt="Sibongithemba Ntshangase">
+                <h2>Sibongithemba Ntshangase</h2>
+            </div>
+            <div class="co-opted-member">
+                <img src="img/team- 13.jpg" alt="Nothando Madlala">
+                <h2>Nothando Madlala</h2>
+            </div>
+            <div class="co-opted-member">
+                <img src="" alt="Bathabile Mkhwanazi">
+                <h2>Bathabile Mkhwanazi</h2>
+            </div>
+            <div class="co-opted-member">
+                <img src="img/team- 12.jpg" alt="Sphamandla Nkosi">
+                <h2>Sphamandla Nkosi</h2>
+            </div>
+            <div class="co-opted-member">
+                <img src="" alt="Kholiswa Bhengu">
+                <h2>Kholiswa Bhengu</h2>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">NaT<span class="text-white">eSA</span></h1>
+                    <p>Bless, O Lord our Father, the works of our hands, that we shall have neither need nor
+                        want, we
+                        who are Thy people.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square me-1"
+                            href="https://www.instagram.com/natesa_national?igsh=YzVkODRmOTdmMw=="><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square me-1"
+                            href="https://www.facebook.com/profile.php?id=61553667069962&amp;mibextid=ZbWKwL%20"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1"
+                            href="https://www.youtube.com/channel/UCPj11VvnKAvMv68XNEASrYA"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-0"
+                            href="https://www.tiktok.com/@natesa_national?_t=8iMbawlSAR4&amp;_r=1"><i
+                                class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>423 Anton Lembede St, Durban, 4001</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@natesa.org</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Newsletter</h5>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="index.html">Nazareth Tertiary Students Association</a>, All Right
+                        Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a href="#">Isimangaliso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
